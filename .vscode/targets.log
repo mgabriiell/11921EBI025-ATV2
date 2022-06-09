@@ -1,4 +1,6 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
 # GNU Make 4.2.1
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2016 Free Software Foundation, Inc.
@@ -6,7 +8,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue May 31 18:33:18 2022
+# Make data base, printed on Wed Jun  8 23:52:57 2022
 
 # Variables
 
@@ -15,7 +17,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # automatic
 ?F = $(notdir $?)
 # environment
-WSLENV = VSCODE_WSL_EXT_LOCATION/up
+WSLENV = ELECTRON_RUN_AS_NODE/w:
 # default
 .SHELLFLAGS := -c
 # environment
@@ -27,17 +29,15 @@ VSCODE_LOG_NATIVE = false
 # automatic
 @F = $(notdir $@)
 # makefile
-CURDIR := /home/berbos/semb1-workspace/lab-02
+CURDIR := /home/berbos/semb1-workspace/lab-03
 # makefile
 SHELL = /bin/sh
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{}}
 # environment
-_ = /home/berbos/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/node
-# makefile (from 'Makefile', line 2)
-CFLAGS = -c -mcpu=cortex-m4 -mthumb -Wall -O0
-# makefile (from 'Makefile', line 1)
-MAKEFILE_LIST :=  Makefile
+_ = /mnt/c/Users/marco/AppData/Local/Programs/Microsoft VS Code/bin/code
+# makefile
+MAKEFILE_LIST := 
 # 'override' directive
 GNUMAKEFLAGS := 
 # environment
@@ -51,11 +51,11 @@ VSCODE_CWD = /mnt/c/Users/marco/AppData/Local/Programs/Microsoft VS Code
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
-PATH = /home/berbos/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/MATLAB/R2019a/runtime/win64:/mnt/c/Program Files/MATLAB/R2019a/bin:/mnt/c/Program Files/MATLAB/R2019a/polyspace/bin:/mnt/c/Program Files (x86)/GNU Arm Embedded Toolchain/9 2020-q2-update/bin:/mnt/c/Users/marco/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/marco/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin
+PATH = /home/berbos/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu20.04onWindows_2004.2022.8.0_x64__79rhkp1fndgsc:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/MATLAB/R2019a/runtime/win64:/mnt/c/Program Files/MATLAB/R2019a/bin:/mnt/c/Program Files/MATLAB/R2019a/polyspace/bin:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files (x86)/GNU Arm Embedded Toolchain/9 2020-q2-update/bin:/mnt/c/Users/marco/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/marco/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin
 # environment
 VSCODE_LOG_STACK = false
 # environment
-VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-e8b487f9-f44f-475c-8d29-f8a474b3b08c.sock
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-7e551cf1-2974-4190-8649-19aa7f3df6c7.sock
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -65,11 +65,11 @@ LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
-PWD = /home/berbos/semb1-workspace/lab-02
+PWD = /home/berbos/semb1-workspace/lab-03
 # default
 .LOADED := 
 # environment
-WSL_INTEROP = /run/WSL/584_interop
+WSL_INTEROP = /run/WSL/8_interop
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
@@ -91,17 +91,15 @@ MAKE = $(MAKE_COMMAND)
 # default
 MAKECMDGOALS := all
 # environment
-SHLVL = 0
-# makefile (from 'Makefile', line 1)
-CC = arm-none-eabi-gcc
+SHLVL = 1
 # default
 MAKE_VERSION := 4.2.1
 # environment
 USER = berbos
 # makefile
-.DEFAULT_GOAL := all
+.DEFAULT_GOAL := 
 # environment
-NAME = LAPTOP-0MFFHOD1
+NAME = Code
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # environment
@@ -149,7 +147,7 @@ VSCODE_EXTHOST_WILL_SEND_SOCKET = true
 # environment
 WSL_DISTRO_NAME = Ubuntu-20.04
 # variable set hash-table stats:
-# Load=69/1024=7%, Rehash=0, Collisions=4/94=4%
+# Load=67/1024=7%, Rehash=0, Collisions=4/89=4%
 
 # Pattern-specific Variable Values
 
@@ -157,56 +155,36 @@ WSL_DISTRO_NAME = Ubuntu-20.04
 
 # Directories
 
-# . (device 2064, inode 60909): 10 files, no impossibilities.
+# . (device 2064, inode 63308): 6 files, no impossibilities.
 
-# 10 files, no impossibilities in 1 directories.
+# 6 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
-%.o: %.c
-#  recipe to execute (from 'Makefile', line 7):
-	$(CC) $(CFLAGS) -o $@ $^
-
-# 1 implicit rules, 0 (0.0%) terminal.
+# No implicit rules.
 
 # Files
 
-startup.o: startup.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'startup'
-#  Last modified 2022-05-30 16:04:29.755770295
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 7):
-	$(CC) $(CFLAGS) -o $@ $^
-
-all: main.o startup.o
+# Not a target:
+all:
 #  Command line target.
 #  Implicit rule search has been done.
 #  File does not exist.
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-main.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-05-30 01:29:36.294787608
-#  File has been updated.
-#  Successfully updated.
+#  File has not been updated.
 
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-05-30 15:17:11.025738968
+#  File does not exist.
 #  File has been updated.
-#  Successfully updated.
+#  Failed to be updated.
 
 # Not a target:
-startup.c:
+makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-05-30 16:03:27.195769604
+#  File does not exist.
 #  File has been updated.
-#  Successfully updated.
+#  Failed to be updated.
 
 # Not a target:
 .DEFAULT:
@@ -214,36 +192,27 @@ startup.c:
 #  Modification time never checked.
 #  File has not been updated.
 
-clean:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from 'Makefile', line 10):
-	rm -f *.o	
-
-main.o: main.c
+# Not a target:
+GNUmakefile:
 #  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'main'
-#  Last modified 2022-05-30 15:12:02.605735565
+#  File does not exist.
 #  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 7):
-	$(CC) $(CFLAGS) -o $@ $^
+#  Failed to be updated.
 
 # files hash-table stats:
-# Load=9/1024=1%, Rehash=0, Collisions=0/28=0%
+# Load=6/1024=1%, Rehash=0, Collisions=0/15=0%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 19 / storage = 143 B / avg = 7 B
-# current buf: size = 8162 B / used = 143 B / count = 19 / avg = 7 B
+# strcache buffers: 1 (0) / strings = 14 / storage = 118 B / avg = 8 B
+# current buf: size = 8162 B / used = 118 B / count = 14 / avg = 8 B
 
-# strcache performance: lookups = 33 / hit rate = 42%
+# strcache performance: lookups = 17 / hit rate = 17%
 # hash-table stats:
-# Load=19/8192=0%, Rehash=0, Collisions=1/33=3%
-# Finished Make data base on Tue May 31 18:33:18 2022
+# Load=14/8192=0%, Rehash=0, Collisions=1/17=6%
+# Finished Make data base on Wed Jun  8 23:52:57 2022
 
  

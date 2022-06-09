@@ -1,6 +1,6 @@
-make --dry-run --always-make --keep-going --print-directory
-make: Entering directory '/home/berbos/semb1-workspace/lab-02'
-arm-none-eabi-gcc -c -mcpu=cortex-m4 -mthumb -Wall -O0 -o main.o main.c
-arm-none-eabi-gcc -c -mcpu=cortex-m4 -mthumb -Wall -O0 -o startup.o startup.c
-make: Leaving directory '/home/berbos/semb1-workspace/lab-02'
+make --dry-run --keep-going --print-directory
+make: Entering directory '/home/berbos/semb1-workspace/lab-03'
+make: Leaving directory '/home/berbos/semb1-workspace/lab-03'
  
+make: *** No targets specified and no makefile found.  Stop.
+
